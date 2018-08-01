@@ -1,0 +1,32 @@
+---
+# Items that apply to ALL profiles:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
+
+---
+spring:
+  profiles: subject
+name: Sachin
+  
+---
+spring:
+  profiles: verb
+name: knew,had,saw,bought
+
+---
+spring:
+  profiles: article
+name: a,the
+
+---
+spring:
+  profiles: adjective
+name: reasonable,leaky,suspicious,ordinary,unlikely
+
+---
+spring:
+  profiles: noun
+name: boat,book,vote,seat,backpack,partition,groundhog
+  
