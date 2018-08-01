@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>session-1-boot-demo</name>
-	<description>Spring Boot, Data, REST.</description>
+	<description>Intro to Spring Boot, Data, REST.</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
