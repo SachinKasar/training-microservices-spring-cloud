@@ -35,10 +35,10 @@ public class Vehicle {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getPosition() {
+	public String getType() {
 		return type;
 	}
-	public void setPosition(String type) {
+	public void setType(String type) {
 		this.type = type;
 	}
 	
