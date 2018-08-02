@@ -1,0 +1,17 @@
+# Properties active for ALL profiles:
+---
+spring:
+  application:
+    name: session-3-client
+server:
+  port: 8002
+
+
+# Properties activated if "north" is the active profile:
+---
+spring:
+  profiles:
+    active: northregionprofile
+  cloud:
+    config:
+      uri: http://localhost:8001
