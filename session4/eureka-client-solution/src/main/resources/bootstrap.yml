@@ -1,0 +1,38 @@
+# Depending on which profile is active, the application gives 
+# itself a different name when registering with Eureka
+---
+spring:
+  profiles: transfer
+  application:
+    name: session-4-transfer
+    
+---
+spring:
+  profiles: account
+  application:
+    name: session-4-accounts
+  
+---
+spring:
+  profiles: amount
+  application:
+    name: session-4-amount
+
+---
+spring:
+  profiles: beneficiary
+  application:
+    name: session-4-beneficiary
+
+---
+spring:
+  profiles: currency
+  application:
+    name: session-4-currency
+
+---
+spring:
+  profiles: payee
+  application:
+    name: session-4-payee
+    
