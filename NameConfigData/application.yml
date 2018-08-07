@@ -7,6 +7,31 @@ eureka:
 
 ---
 spring:
+  profiles: account
+words: “111111,222222,333333,444444,555555,666666,777777"
+
+---
+spring:
+  profiles: amount
+words: "1000,2000,3000,4000,5000,6000,7000"
+
+---
+spring:
+  profiles: beneficiary
+words: Mahesh,Rune,Ganesh,Vijay
+
+---
+spring:
+  profiles: currency
+words: INR,DKK,SEK,AUR,USD,CAD
+
+---
+spring:
+  profiles: payee
+words: Johan,Jan
+
+---
+spring:
   profiles: subject
 name: Sachin
   
